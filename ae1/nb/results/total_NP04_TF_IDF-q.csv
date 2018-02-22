@@ -1,0 +1,2 @@
+query,P_10,P_100,P_1000,P_15,P_20,P_200,P_30,P_5,P_500,Rprec,bpref,gm_map,iprec_at_recall_0.00,iprec_at_recall_0.10,iprec_at_recall_0.20,iprec_at_recall_0.30,iprec_at_recall_0.40,iprec_at_recall_0.50,iprec_at_recall_0.60,iprec_at_recall_0.70,iprec_at_recall_0.80,iprec_at_recall_0.90,iprec_at_recall_1.00,map,num_q,num_rel,num_rel_ret,num_ret,recip_rank,runid
+all,0.0627,0.0089,0.0010,0.0480,0.0400,0.0049,0.0271,0.1120,0.0019,0.3400,0.3367,0.1096,0.4447,0.4447,0.4447,0.4447,0.4447,0.4447,0.4358,0.4358,0.4348,0.4348,0.4348,0.4396,75,80,73,75000,0.4438,TF_IDF_Bo1bfree_d_3_t_10

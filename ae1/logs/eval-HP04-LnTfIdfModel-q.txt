@@ -1,0 +1,1 @@
+COMMAND: /Users/fferegrino/Documents/terrier-core-4.2/bin/trec_eval.sh /Users/fferegrino/Documents/ae1/TopicsQrels/HP04/qrels /Users/fferegrino/Documents/terrier-core-4.2/var/results/HP04-LnTfIdfModel-q.res -q > /Users/fferegrino/Documents/terrier-core-4.2/var/results/HP04-LnTfIdfModel-q.eval 

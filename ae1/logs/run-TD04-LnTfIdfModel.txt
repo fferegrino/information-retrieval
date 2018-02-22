@@ -1,0 +1,310 @@
+COMMAND: CLASSPATH=/Users/fferegrino/Documents/GitHub/ir-ae1/custom-model/target/ircourse-1.0-SNAPSHOT.jar /Users/fferegrino/Documents/terrier-core-4.2/bin/trec_terrier.sh -r  -Dtrec.topics=/Users/fferegrino/Documents/ae1/TopicsQrels/TD04/topics -Dtrec.results.file=/Users/fferegrino/Documents/terrier-core-4.2/var/results/TD04-LnTfIdfModel.res -Dtrec.model=com.thatcsharpguy.models.LnTfIdfModel 
+Setting TERRIER_HOME to /Users/fferegrino/Documents/terrier-core-4.2
+Setting JAVA_HOME to /usr
+23:00:50.214 [main] INFO  o.t.structures.CompressingMetaIndex - Structure meta reading lookup file into memory
+23:00:50.254 [main] INFO  o.t.structures.CompressingMetaIndex - Structure meta loading data file into memory
+23:00:50.285 [main] INFO  o.t.a.batchquerying.TRECQuerying - time to intialise index : 0.662
+23:00:50.314 [main] INFO  o.t.a.batchquerying.TRECQuerying - 1 : electoral college
+23:00:50.331 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 1: 'electoral college'
+23:00:50.353 [main] INFO  o.t.matching.PostingListManager - Query 1 with 2 terms has 2 posting lists
+23:00:50.402 [main] INFO  o.t.a.batchquerying.TRECQuerying - Writing results to /Users/fferegrino/Documents/terrier-core-4.2/var/results/TD04-LnTfIdfModel.res
+23:00:50.433 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.119
+23:00:50.433 [main] INFO  o.t.a.batchquerying.TRECQuerying - 5 : american music
+23:00:50.433 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 5: 'american music'
+23:00:50.435 [main] INFO  o.t.matching.PostingListManager - Query 5 with 2 terms has 2 posting lists
+23:00:50.491 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.058
+23:00:50.491 [main] INFO  o.t.a.batchquerying.TRECQuerying - 8 : philippines
+23:00:50.491 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 8: 'philippines'
+23:00:50.493 [main] INFO  o.t.matching.PostingListManager - Query 8 with 1 terms has 1 posting lists
+23:00:50.502 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.011
+23:00:50.503 [main] INFO  o.t.a.batchquerying.TRECQuerying - 10 : well water contamination
+23:00:50.503 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 10: 'well water contamination'
+23:00:50.506 [main] INFO  o.t.matching.PostingListManager - Query 10 with 3 terms has 3 posting lists
+23:00:50.581 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.078
+23:00:50.581 [main] INFO  o.t.a.batchquerying.TRECQuerying - 12 : oil petroleum resources
+23:00:50.582 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 12: 'oil petroleum resources'
+23:00:50.586 [main] INFO  o.t.matching.PostingListManager - Query 12 with 3 terms has 3 posting lists
+23:00:50.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.062
+23:00:50.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - 15 : welfare reform
+23:00:50.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 15: 'welfare reform'
+23:00:50.645 [main] INFO  o.t.matching.PostingListManager - Query 15 with 2 terms has 2 posting lists
+23:00:50.662 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.019
+23:00:50.662 [main] INFO  o.t.a.batchquerying.TRECQuerying - 19 : toxic waste
+23:00:50.662 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 19: 'toxic waste'
+23:00:50.664 [main] INFO  o.t.matching.PostingListManager - Query 19 with 2 terms has 2 posting lists
+23:00:50.681 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.019
+23:00:50.681 [main] INFO  o.t.a.batchquerying.TRECQuerying - 21 : substance abuse
+23:00:50.681 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 21: 'substance abuse'
+23:00:50.685 [main] INFO  o.t.matching.PostingListManager - Query 21 with 2 terms has 2 posting lists
+23:00:50.698 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.017
+23:00:50.698 [main] INFO  o.t.a.batchquerying.TRECQuerying - 24 : child care
+23:00:50.699 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 24: 'child care'
+23:00:50.700 [main] INFO  o.t.matching.PostingListManager - Query 24 with 2 terms has 2 posting lists
+23:00:50.723 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.025
+23:00:50.723 [main] INFO  o.t.a.batchquerying.TRECQuerying - 30 : hiv aids
+23:00:50.723 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 30: 'hiv aids'
+23:00:50.726 [main] INFO  o.t.matching.PostingListManager - Query 30 with 2 terms has 2 posting lists
+23:00:50.739 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.016
+23:00:50.739 [main] INFO  o.t.a.batchquerying.TRECQuerying - 31 : origin of the universe
+23:00:50.739 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 31: 'origin of the universe'
+23:00:50.741 [main] INFO  o.t.matching.PostingListManager - Query 31 with 2 terms has 2 posting lists
+23:00:50.776 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.037
+23:00:50.776 [main] INFO  o.t.a.batchquerying.TRECQuerying - 33 : teen pregnancy
+23:00:50.776 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 33: 'teen pregnancy'
+23:00:50.778 [main] INFO  o.t.matching.PostingListManager - Query 33 with 2 terms has 2 posting lists
+23:00:50.786 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.01
+23:00:50.786 [main] INFO  o.t.a.batchquerying.TRECQuerying - 36 : the arts in education
+23:00:50.786 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 36: 'the arts in education'
+23:00:50.788 [main] INFO  o.t.matching.PostingListManager - Query 36 with 2 terms has 2 posting lists
+23:00:50.822 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.036
+23:00:50.823 [main] INFO  o.t.a.batchquerying.TRECQuerying - 37 : magnetism
+23:00:50.823 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 37: 'magnetism'
+23:00:50.825 [main] INFO  o.t.matching.PostingListManager - Query 37 with 1 terms has 1 posting lists
+23:00:50.836 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.013
+23:00:50.836 [main] INFO  o.t.a.batchquerying.TRECQuerying - 40 : public school standards of performance
+23:00:50.836 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 40: 'public school standards of performance'
+23:00:50.839 [main] INFO  o.t.matching.PostingListManager - Query 40 with 4 terms has 4 posting lists
+23:00:51.044 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.208
+23:00:51.044 [main] INFO  o.t.a.batchquerying.TRECQuerying - 41 : historic preservation
+23:00:51.045 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 41: 'historic preservation'
+23:00:51.046 [main] INFO  o.t.matching.PostingListManager - Query 41 with 2 terms has 2 posting lists
+23:00:51.064 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.02
+23:00:51.068 [main] INFO  o.t.a.batchquerying.TRECQuerying - 45 : faith based initiatives
+23:00:51.068 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 45: 'faith based initiatives'
+23:00:51.074 [main] INFO  o.t.matching.PostingListManager - Query 45 with 3 terms has 3 posting lists
+23:00:51.141 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.074
+23:00:51.141 [main] INFO  o.t.a.batchquerying.TRECQuerying - 47 : medical residency
+23:00:51.141 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 47: 'medical residency'
+23:00:51.144 [main] INFO  o.t.matching.PostingListManager - Query 47 with 2 terms has 2 posting lists
+23:00:51.158 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.017
+23:00:51.158 [main] INFO  o.t.a.batchquerying.TRECQuerying - 48 : federal and state statistics
+23:00:51.158 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 48: 'federal and state statistics'
+23:00:51.160 [main] INFO  o.t.matching.PostingListManager - Query 48 with 3 terms has 3 posting lists
+23:00:51.213 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.055
+23:00:51.213 [main] INFO  o.t.a.batchquerying.TRECQuerying - 50 : money laundering
+23:00:51.213 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 50: 'money laundering'
+23:00:51.216 [main] INFO  o.t.matching.PostingListManager - Query 50 with 2 terms has 2 posting lists
+23:00:51.223 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.009
+23:00:51.223 [main] INFO  o.t.a.batchquerying.TRECQuerying - 53 : telecommuting
+23:00:51.223 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 53: 'telecommuting'
+23:00:51.224 [main] INFO  o.t.matching.PostingListManager - Query 53 with 1 terms has 1 posting lists
+23:00:51.229 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.005
+23:00:51.229 [main] INFO  o.t.a.batchquerying.TRECQuerying - 57 : religious belief
+23:00:51.229 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 57: 'religious belief'
+23:00:51.230 [main] INFO  o.t.matching.PostingListManager - Query 57 with 2 terms has 2 posting lists
+23:00:51.237 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.008
+23:00:51.237 [main] INFO  o.t.a.batchquerying.TRECQuerying - 58 : automobile emissions vehicle pollution
+23:00:51.237 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 58: 'automobile emissions vehicle pollution'
+23:00:51.245 [main] INFO  o.t.matching.PostingListManager - Query 58 with 4 terms has 4 posting lists
+23:00:51.262 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.025
+23:00:51.263 [main] INFO  o.t.a.batchquerying.TRECQuerying - 63 : art museums
+23:00:51.263 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 63: 'art museums'
+23:00:51.264 [main] INFO  o.t.matching.PostingListManager - Query 63 with 2 terms has 2 posting lists
+23:00:51.273 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.01
+23:00:51.273 [main] INFO  o.t.a.batchquerying.TRECQuerying - 66 : intelligence analysis
+23:00:51.273 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 66: 'intelligence analysis'
+23:00:51.274 [main] INFO  o.t.matching.PostingListManager - Query 66 with 2 terms has 2 posting lists
+23:00:51.288 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.015
+23:00:51.288 [main] INFO  o.t.a.batchquerying.TRECQuerying - 73 : solar flares
+23:00:51.288 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 73: 'solar flares'
+23:00:51.290 [main] INFO  o.t.matching.PostingListManager - Query 73 with 2 terms has 2 posting lists
+23:00:51.299 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.011
+23:00:51.299 [main] INFO  o.t.a.batchquerying.TRECQuerying - 74 : skin cancer
+23:00:51.299 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 74: 'skin cancer'
+23:00:51.301 [main] INFO  o.t.matching.PostingListManager - Query 74 with 2 terms has 2 posting lists
+23:00:51.307 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.008
+23:00:51.307 [main] INFO  o.t.a.batchquerying.TRECQuerying - 79 : international trade
+23:00:51.307 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 79: 'international trade'
+23:00:51.309 [main] INFO  o.t.matching.PostingListManager - Query 79 with 2 terms has 2 posting lists
+23:00:51.334 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.027
+23:00:51.334 [main] INFO  o.t.a.batchquerying.TRECQuerying - 81 : mosquito control
+23:00:51.334 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 81: 'mosquito control'
+23:00:51.336 [main] INFO  o.t.matching.PostingListManager - Query 81 with 2 terms has 2 posting lists
+23:00:51.355 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.021
+23:00:51.355 [main] INFO  o.t.a.batchquerying.TRECQuerying - 87 : chronic pain
+23:00:51.356 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 87: 'chronic pain'
+23:00:51.357 [main] INFO  o.t.matching.PostingListManager - Query 87 with 2 terms has 2 posting lists
+23:00:51.364 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.009
+23:00:51.364 [main] INFO  o.t.a.batchquerying.TRECQuerying - 96 : the planet mars
+23:00:51.365 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 96: 'the planet mars'
+23:00:51.366 [main] INFO  o.t.matching.PostingListManager - Query 96 with 2 terms has 2 posting lists
+23:00:51.376 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.012
+23:00:51.377 [main] INFO  o.t.a.batchquerying.TRECQuerying - 97 : ufos
+23:00:51.377 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 97: 'ufos'
+23:00:51.379 [main] INFO  o.t.matching.PostingListManager - Query 97 with 1 terms has 1 posting lists
+23:00:51.379 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.002
+23:00:51.380 [main] INFO  o.t.a.batchquerying.TRECQuerying - 99 : salmon
+23:00:51.380 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 99: 'salmon'
+23:00:51.381 [main] INFO  o.t.matching.PostingListManager - Query 99 with 1 terms has 1 posting lists
+23:00:51.387 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.007
+23:00:51.387 [main] INFO  o.t.a.batchquerying.TRECQuerying - 101 : migrant farm workers
+23:00:51.387 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 101: 'migrant farm workers'
+23:00:51.389 [main] INFO  o.t.matching.PostingListManager - Query 101 with 3 terms has 3 posting lists
+23:00:51.403 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.016
+23:00:51.404 [main] INFO  o.t.a.batchquerying.TRECQuerying - 102 : diet and nutrition and weight management
+23:00:51.404 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 102: 'diet and nutrition and weight management'
+23:00:51.407 [main] INFO  o.t.matching.PostingListManager - Query 102 with 4 terms has 4 posting lists
+23:00:51.445 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.041
+23:00:51.445 [main] INFO  o.t.a.batchquerying.TRECQuerying - 103 : vanity license plates
+23:00:51.445 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 103: 'vanity license plates'
+23:00:51.448 [main] INFO  o.t.matching.PostingListManager - Query 103 with 3 terms has 3 posting lists
+23:00:51.457 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.012
+23:00:51.457 [main] INFO  o.t.a.batchquerying.TRECQuerying - 104 : space exploration
+23:00:51.457 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 104: 'space exploration'
+23:00:51.458 [main] INFO  o.t.matching.PostingListManager - Query 104 with 2 terms has 2 posting lists
+23:00:51.475 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.018
+23:00:51.475 [main] INFO  o.t.a.batchquerying.TRECQuerying - 107 : small business
+23:00:51.475 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 107: 'small business'
+23:00:51.477 [main] INFO  o.t.matching.PostingListManager - Query 107 with 2 terms has 2 posting lists
+23:00:51.500 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.025
+23:00:51.500 [main] INFO  o.t.a.batchquerying.TRECQuerying - 111 : species identification
+23:00:51.500 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 111: 'species identification'
+23:00:51.501 [main] INFO  o.t.matching.PostingListManager - Query 111 with 2 terms has 2 posting lists
+23:00:51.513 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.013
+23:00:51.513 [main] INFO  o.t.a.batchquerying.TRECQuerying - 115 : information security
+23:00:51.513 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 115: 'information security'
+23:00:51.514 [main] INFO  o.t.matching.PostingListManager - Query 115 with 1 terms has 1 posting lists
+23:00:51.529 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.016
+23:00:51.529 [main] INFO  o.t.a.batchquerying.TRECQuerying - 121 : identity theft
+23:00:51.530 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 121: 'identity theft'
+23:00:51.532 [main] INFO  o.t.matching.PostingListManager - Query 121 with 2 terms has 2 posting lists
+23:00:51.539 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.01
+23:00:51.539 [main] INFO  o.t.a.batchquerying.TRECQuerying - 125 : english as a second language
+23:00:51.539 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 125: 'english as a second language'
+23:00:51.541 [main] INFO  o.t.matching.PostingListManager - Query 125 with 3 terms has 3 posting lists
+23:00:51.561 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.022
+23:00:51.561 [main] INFO  o.t.a.batchquerying.TRECQuerying - 127 : gps
+23:00:51.561 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 127: 'gps'
+23:00:51.563 [main] INFO  o.t.matching.PostingListManager - Query 127 with 1 terms has 1 posting lists
+23:00:51.568 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.007
+23:00:51.568 [main] INFO  o.t.a.batchquerying.TRECQuerying - 133 : human genome research
+23:00:51.568 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 133: 'human genome research'
+23:00:51.571 [main] INFO  o.t.matching.PostingListManager - Query 133 with 3 terms has 3 posting lists
+23:00:51.602 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.034
+23:00:51.602 [main] INFO  o.t.a.batchquerying.TRECQuerying - 134 : national parks
+23:00:51.603 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 134: 'national parks'
+23:00:51.604 [main] INFO  o.t.matching.PostingListManager - Query 134 with 2 terms has 2 posting lists
+23:00:51.637 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.035
+23:00:51.637 [main] INFO  o.t.a.batchquerying.TRECQuerying - 136 : career information
+23:00:51.637 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 136: 'career information'
+23:00:51.637 [main] INFO  o.t.matching.PostingListManager - Query 136 with 1 terms has 1 posting lists
+23:00:51.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.006
+23:00:51.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - 137 : maps mapping cartography
+23:00:51.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 137: 'maps mapping cartography'
+23:00:51.644 [main] INFO  o.t.matching.PostingListManager - Query 137 with 2 terms has 2 posting lists
+23:00:51.659 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.016
+23:00:51.659 [main] INFO  o.t.a.batchquerying.TRECQuerying - 139 : poetry readings and poems online
+23:00:51.659 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 139: 'poetry readings and poems online'
+23:00:51.662 [main] INFO  o.t.matching.PostingListManager - Query 139 with 4 terms has 4 posting lists
+23:00:51.677 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.018
+23:00:51.678 [main] INFO  o.t.a.batchquerying.TRECQuerying - 141 : international monetary fund
+23:00:51.678 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 141: 'international monetary fund'
+23:00:51.680 [main] INFO  o.t.matching.PostingListManager - Query 141 with 3 terms has 3 posting lists
+23:00:51.708 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.03
+23:00:51.708 [main] INFO  o.t.a.batchquerying.TRECQuerying - 148 : low income housing
+23:00:51.708 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 148: 'low income housing'
+23:00:51.710 [main] INFO  o.t.matching.PostingListManager - Query 148 with 3 terms has 3 posting lists
+23:00:51.740 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.032
+23:00:51.740 [main] INFO  o.t.a.batchquerying.TRECQuerying - 152 : bioengineered foods crops
+23:00:51.740 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 152: 'bioengineered foods crops'
+23:00:51.742 [main] INFO  o.t.matching.PostingListManager - Query 152 with 3 terms has 3 posting lists
+23:00:51.753 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.013
+23:00:51.754 [main] INFO  o.t.a.batchquerying.TRECQuerying - 153 : technology transfer
+23:00:51.754 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 153: 'technology transfer'
+23:00:51.756 [main] INFO  o.t.matching.PostingListManager - Query 153 with 2 terms has 2 posting lists
+23:00:51.784 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.031
+23:00:51.784 [main] INFO  o.t.a.batchquerying.TRECQuerying - 155 : federal government outsourcing
+23:00:51.784 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 155: 'federal government outsourcing'
+23:00:51.785 [main] INFO  o.t.matching.PostingListManager - Query 155 with 3 terms has 3 posting lists
+23:00:51.823 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.039
+23:00:51.823 [main] INFO  o.t.a.batchquerying.TRECQuerying - 157 : federal grant programs
+23:00:51.823 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 157: 'federal grant programs'
+23:00:51.824 [main] INFO  o.t.matching.PostingListManager - Query 157 with 3 terms has 3 posting lists
+23:00:51.883 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.06
+23:00:51.884 [main] INFO  o.t.a.batchquerying.TRECQuerying - 160 : scholarship programs
+23:00:51.884 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 160: 'scholarship programs'
+23:00:51.886 [main] INFO  o.t.matching.PostingListManager - Query 160 with 2 terms has 2 posting lists
+23:00:51.921 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.037
+23:00:51.921 [main] INFO  o.t.a.batchquerying.TRECQuerying - 163 : bioterrorism
+23:00:51.921 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 163: 'bioterrorism'
+23:00:51.922 [main] INFO  o.t.matching.PostingListManager - Query 163 with 1 terms has 1 posting lists
+23:00:51.925 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.004
+23:00:51.925 [main] INFO  o.t.a.batchquerying.TRECQuerying - 164 : winter weather safety
+23:00:51.926 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 164: 'winter weather safety'
+23:00:51.927 [main] INFO  o.t.matching.PostingListManager - Query 164 with 3 terms has 3 posting lists
+23:00:51.948 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.023
+23:00:51.948 [main] INFO  o.t.a.batchquerying.TRECQuerying - 165 : national laboratories
+23:00:51.948 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 165: 'national laboratories'
+23:00:51.950 [main] INFO  o.t.matching.PostingListManager - Query 165 with 2 terms has 2 posting lists
+23:00:51.988 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.04
+23:00:51.988 [main] INFO  o.t.a.batchquerying.TRECQuerying - 167 : after school programs
+23:00:51.988 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 167: 'after school programs'
+23:00:51.989 [main] INFO  o.t.matching.PostingListManager - Query 167 with 2 terms has 2 posting lists
+23:00:52.021 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.033
+23:00:52.022 [main] INFO  o.t.a.batchquerying.TRECQuerying - 169 : how to save energy
+23:00:52.022 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 169: 'how to save energy'
+23:00:52.023 [main] INFO  o.t.matching.PostingListManager - Query 169 with 2 terms has 2 posting lists
+23:00:52.037 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.015
+23:00:52.038 [main] INFO  o.t.a.batchquerying.TRECQuerying - 170 : science fairs and competitions
+23:00:52.038 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 170: 'science fairs and competitions'
+23:00:52.040 [main] INFO  o.t.matching.PostingListManager - Query 170 with 3 terms has 3 posting lists
+23:00:52.061 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.023
+23:00:52.061 [main] INFO  o.t.a.batchquerying.TRECQuerying - 176 : hurricanes
+23:00:52.061 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 176: 'hurricanes'
+23:00:52.062 [main] INFO  o.t.matching.PostingListManager - Query 176 with 1 terms has 1 posting lists
+23:00:52.065 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.004
+23:00:52.066 [main] INFO  o.t.a.batchquerying.TRECQuerying - 177 : minority business
+23:00:52.066 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 177: 'minority business'
+23:00:52.068 [main] INFO  o.t.matching.PostingListManager - Query 177 with 2 terms has 2 posting lists
+23:00:52.086 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.02
+23:00:52.087 [main] INFO  o.t.a.batchquerying.TRECQuerying - 178 : recycling
+23:00:52.087 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 178: 'recycling'
+23:00:52.088 [main] INFO  o.t.matching.PostingListManager - Query 178 with 1 terms has 1 posting lists
+23:00:52.092 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.005
+23:00:52.092 [main] INFO  o.t.a.batchquerying.TRECQuerying - 185 : estuary conservation
+23:00:52.092 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 185: 'estuary conservation'
+23:00:52.093 [main] INFO  o.t.matching.PostingListManager - Query 185 with 2 terms has 2 posting lists
+23:00:52.100 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.008
+23:00:52.100 [main] INFO  o.t.a.batchquerying.TRECQuerying - 189 : homeopathic medicine
+23:00:52.100 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 189: 'homeopathic medicine'
+23:00:52.102 [main] INFO  o.t.matching.PostingListManager - Query 189 with 2 terms has 2 posting lists
+23:00:52.108 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.008
+23:00:52.108 [main] INFO  o.t.a.batchquerying.TRECQuerying - 191 : coral reef systems
+23:00:52.108 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 191: 'coral reef systems'
+23:00:52.109 [main] INFO  o.t.matching.PostingListManager - Query 191 with 3 terms has 3 posting lists
+23:00:52.132 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.024
+23:00:52.132 [main] INFO  o.t.a.batchquerying.TRECQuerying - 192 : drunk driving
+23:00:52.132 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 192: 'drunk driving'
+23:00:52.134 [main] INFO  o.t.matching.PostingListManager - Query 192 with 2 terms has 2 posting lists
+23:00:52.141 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.009
+23:00:52.141 [main] INFO  o.t.a.batchquerying.TRECQuerying - 194 : cigarettes nicotine health
+23:00:52.141 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 194: 'cigarettes nicotine health'
+23:00:52.143 [main] INFO  o.t.matching.PostingListManager - Query 194 with 3 terms has 3 posting lists
+23:00:52.157 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.016
+23:00:52.158 [main] INFO  o.t.a.batchquerying.TRECQuerying - 197 : vietnam war
+23:00:52.158 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 197: 'vietnam war'
+23:00:52.159 [main] INFO  o.t.matching.PostingListManager - Query 197 with 2 terms has 2 posting lists
+23:00:52.164 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.007
+23:00:52.164 [main] INFO  o.t.a.batchquerying.TRECQuerying - 200 : maritime trade
+23:00:52.164 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 200: 'maritime trade'
+23:00:52.165 [main] INFO  o.t.matching.PostingListManager - Query 200 with 2 terms has 2 posting lists
+23:00:52.174 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.01
+23:00:52.174 [main] INFO  o.t.a.batchquerying.TRECQuerying - 204 : endangered species
+23:00:52.174 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 204: 'endangered species'
+23:00:52.175 [main] INFO  o.t.matching.PostingListManager - Query 204 with 2 terms has 2 posting lists
+23:00:52.182 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.008
+23:00:52.182 [main] INFO  o.t.a.batchquerying.TRECQuerying - 207 : annual parades
+23:00:52.182 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 207: 'annual parades'
+23:00:52.183 [main] INFO  o.t.matching.PostingListManager - Query 207 with 2 terms has 2 posting lists
+23:00:52.195 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.013
+23:00:52.195 [main] INFO  o.t.a.batchquerying.TRECQuerying - 209 : radon
+23:00:52.195 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 209: 'radon'
+23:00:52.196 [main] INFO  o.t.matching.PostingListManager - Query 209 with 1 terms has 1 posting lists
+23:00:52.199 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.004
+23:00:52.199 [main] INFO  o.t.a.batchquerying.TRECQuerying - 221 : homeland security
+23:00:52.199 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 221: 'homeland security'
+23:00:52.200 [main] INFO  o.t.matching.PostingListManager - Query 221 with 2 terms has 2 posting lists
+23:00:52.213 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.014
+23:00:52.219 [main] INFO  o.t.a.batchquerying.TRECQuerying - Settings of Terrier written to /Users/fferegrino/Documents/terrier-core-4.2/var/results/TD04-LnTfIdfModel.res.settings
+23:00:52.219 [main] INFO  o.t.a.batchquerying.TRECQuerying - Finished topics, executed 75 queries in 1.906 seconds, results written to /Users/fferegrino/Documents/terrier-core-4.2/var/results/TD04-LnTfIdfModel.res
+Time elapsed: 2.599 seconds.

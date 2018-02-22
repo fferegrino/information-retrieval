@@ -1,0 +1,21 @@
+COMMAND: /Users/fferegrino/Documents/terrier-core-4.2/bin/trec_setup.sh /Users/fferegrino/Documents/ae1/Dotgov_50pc 
+Setting TERRIER_HOME to /Users/fferegrino/Documents/terrier-core-4.2
+Setting JAVA_HOME to /usr
+/Users/fferegrino/Documents/terrier-core-4.2/target/terrier-core-4.2-jar-with-dependencies.jar:/Users/fferegrino/Documents/terrier-core-4.2/etc/logback.xml
+Creating collection.spec file.
+Creating jforests.properties file.
+Creating features.list file.
+Creating logging configuration (logback.xml) file in /Users/fferegrino/Documents/terrier-core-4.2/etc/
+Creating terrier.properties file.
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/91.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/92.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/93.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/94.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/95.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/96.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/97.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/98.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/G29/99.gz
+/Users/fferegrino/Documents/ae1/Dotgov_50pc/collection.spec
+Updated collection.spec file. Please check that it contains
+all and only all the files to be indexed, or create it manually.

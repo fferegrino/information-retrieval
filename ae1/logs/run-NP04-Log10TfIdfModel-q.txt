@@ -1,0 +1,460 @@
+COMMAND: CLASSPATH=/Users/fferegrino/Documents/GitHub/ir-ae1/custom-model/target/ircourse-1.0-SNAPSHOT.jar /Users/fferegrino/Documents/terrier-core-4.2/bin/trec_terrier.sh -r -q -Dtrec.topics=/Users/fferegrino/Documents/ae1/TopicsQrels/NP04/topics -Dtrec.results.file=/Users/fferegrino/Documents/terrier-core-4.2/var/results/NP04-Log10TfIdfModel-q.res -Dtrec.model=com.thatcsharpguy.models.Log10TfIdfModel 
+Setting TERRIER_HOME to /Users/fferegrino/Documents/terrier-core-4.2
+Setting JAVA_HOME to /usr
+22:59:48.255 [main] INFO  o.t.structures.CompressingMetaIndex - Structure meta reading lookup file into memory
+22:59:48.294 [main] INFO  o.t.structures.CompressingMetaIndex - Structure meta loading data file into memory
+22:59:48.323 [main] INFO  o.t.a.batchquerying.TRECQuerying - time to intialise index : 0.659
+22:59:48.346 [main] INFO  o.t.a.batchquerying.TRECQuerying - 2 : ireland consular information sheet
+22:59:48.364 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 2: 'ireland consular information sheet'
+22:59:48.386 [main] INFO  o.t.matching.PostingListManager - Query 2 with 3 terms has 3 posting lists
+22:59:48.481 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 2
+22:59:48.489 [main] INFO  o.t.matching.PostingListManager - Query 2 with 12 terms has 12 posting lists
+22:59:48.608 [main] INFO  o.t.a.batchquerying.TRECQuerying - Writing results to /Users/fferegrino/Documents/terrier-core-4.2/var/results/NP04-Log10TfIdfModel-q.res
+22:59:48.632 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.286
+22:59:48.632 [main] INFO  o.t.a.batchquerying.TRECQuerying - 3 : citizen attitudes toward prairie dogs
+22:59:48.632 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 3: 'citizen attitudes toward prairie dogs'
+22:59:48.635 [main] INFO  o.t.matching.PostingListManager - Query 3 with 4 terms has 4 posting lists
+22:59:48.704 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 3
+22:59:48.710 [main] INFO  o.t.matching.PostingListManager - Query 3 with 13 terms has 13 posting lists
+22:59:48.750 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.118
+22:59:48.750 [main] INFO  o.t.a.batchquerying.TRECQuerying - 4 : jpl stardust comet wild
+22:59:48.752 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 4: 'jpl stardust comet wild'
+22:59:48.755 [main] INFO  o.t.matching.PostingListManager - Query 4 with 4 terms has 4 posting lists
+22:59:48.785 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 4
+22:59:48.792 [main] INFO  o.t.matching.PostingListManager - Query 4 with 12 terms has 12 posting lists
+22:59:48.819 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.068
+22:59:48.819 [main] INFO  o.t.a.batchquerying.TRECQuerying - 11 : pileated woodpecker
+22:59:48.819 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 11: 'pileated woodpecker'
+22:59:48.820 [main] INFO  o.t.matching.PostingListManager - Query 11 with 2 terms has 2 posting lists
+22:59:48.846 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 11
+22:59:48.852 [main] INFO  o.t.matching.PostingListManager - Query 11 with 11 terms has 11 posting lists
+22:59:48.867 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.048
+22:59:48.868 [main] INFO  o.t.a.batchquerying.TRECQuerying - 13 : eruption of mount st helens
+22:59:48.868 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 13: 'eruption of mount st helens'
+22:59:48.871 [main] INFO  o.t.matching.PostingListManager - Query 13 with 4 terms has 4 posting lists
+22:59:48.959 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 13
+22:59:48.967 [main] INFO  o.t.matching.PostingListManager - Query 13 with 13 terms has 13 posting lists
+22:59:49.047 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.179
+22:59:49.047 [main] INFO  o.t.a.batchquerying.TRECQuerying - 14 : club drugs
+22:59:49.047 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 14: 'club drugs'
+22:59:49.049 [main] INFO  o.t.matching.PostingListManager - Query 14 with 2 terms has 2 posting lists
+22:59:49.101 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 14
+22:59:49.108 [main] INFO  o.t.matching.PostingListManager - Query 14 with 11 terms has 11 posting lists
+22:59:49.180 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.133
+22:59:49.180 [main] INFO  o.t.a.batchquerying.TRECQuerying - 16 : sandhill cranes and the platte river
+22:59:49.180 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 16: 'sandhill cranes and the platte river'
+22:59:49.183 [main] INFO  o.t.matching.PostingListManager - Query 16 with 4 terms has 4 posting lists
+22:59:49.212 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 16
+22:59:49.218 [main] INFO  o.t.matching.PostingListManager - Query 16 with 13 terms has 13 posting lists
+22:59:49.249 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.069
+22:59:49.249 [main] INFO  o.t.a.batchquerying.TRECQuerying - 18 : copyright basics
+22:59:49.250 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 18: 'copyright basics'
+22:59:49.251 [main] INFO  o.t.matching.PostingListManager - Query 18 with 2 terms has 2 posting lists
+22:59:49.305 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 18
+22:59:49.310 [main] INFO  o.t.matching.PostingListManager - Query 18 with 11 terms has 11 posting lists
+22:59:49.367 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.118
+22:59:49.367 [main] INFO  o.t.a.batchquerying.TRECQuerying - 20 : tuskegee airmen observance
+22:59:49.367 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 20: 'tuskegee airmen observance'
+22:59:49.369 [main] INFO  o.t.matching.PostingListManager - Query 20 with 3 terms has 3 posting lists
+22:59:49.383 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 20
+22:59:49.388 [main] INFO  o.t.matching.PostingListManager - Query 20 with 12 terms has 12 posting lists
+22:59:49.463 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.096
+22:59:49.463 [main] INFO  o.t.a.batchquerying.TRECQuerying - 22 : national atlas maps
+22:59:49.464 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 22: 'national atlas maps'
+22:59:49.465 [main] INFO  o.t.matching.PostingListManager - Query 22 with 3 terms has 3 posting lists
+22:59:49.505 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 22
+22:59:49.510 [main] INFO  o.t.matching.PostingListManager - Query 22 with 12 terms has 12 posting lists
+22:59:49.607 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.144
+22:59:49.608 [main] INFO  o.t.a.batchquerying.TRECQuerying - 23 : iraq kuwait threat history
+22:59:49.608 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 23: 'iraq kuwait threat history'
+22:59:49.610 [main] INFO  o.t.matching.PostingListManager - Query 23 with 4 terms has 4 posting lists
+22:59:49.670 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 23
+22:59:49.674 [main] INFO  o.t.matching.PostingListManager - Query 23 with 11 terms has 11 posting lists
+22:59:49.692 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.084
+22:59:49.692 [main] INFO  o.t.a.batchquerying.TRECQuerying - 25 : history of phoenix symbol
+22:59:49.692 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 25: 'history of phoenix symbol'
+22:59:49.694 [main] INFO  o.t.matching.PostingListManager - Query 25 with 3 terms has 3 posting lists
+22:59:49.729 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 25
+22:59:49.734 [main] INFO  o.t.matching.PostingListManager - Query 25 with 12 terms has 12 posting lists
+22:59:49.820 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.128
+22:59:49.820 [main] INFO  o.t.a.batchquerying.TRECQuerying - 26 : the white house president bush s cabinet
+22:59:49.820 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 26: 'the white house president bush s cabinet'
+22:59:49.822 [main] INFO  o.t.matching.PostingListManager - Query 26 with 5 terms has 5 posting lists
+22:59:49.874 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 26
+22:59:49.880 [main] INFO  o.t.matching.PostingListManager - Query 26 with 12 terms has 12 posting lists
+22:59:49.946 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.126
+22:59:49.946 [main] INFO  o.t.a.batchquerying.TRECQuerying - 27 : opm new retirees
+22:59:49.947 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 27: 'opm new retirees'
+22:59:49.948 [main] INFO  o.t.matching.PostingListManager - Query 27 with 3 terms has 3 posting lists
+22:59:50.016 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 27
+22:59:50.022 [main] INFO  o.t.matching.PostingListManager - Query 27 with 12 terms has 12 posting lists
+22:59:50.086 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.14
+22:59:50.086 [main] INFO  o.t.a.batchquerying.TRECQuerying - 28 : fda 2002 press releases
+22:59:50.086 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 28: 'fda 2002 press releases'
+22:59:50.088 [main] INFO  o.t.matching.PostingListManager - Query 28 with 4 terms has 4 posting lists
+22:59:50.124 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 28
+22:59:50.128 [main] INFO  o.t.matching.PostingListManager - Query 28 with 13 terms has 13 posting lists
+22:59:50.276 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.19
+22:59:50.276 [main] INFO  o.t.a.batchquerying.TRECQuerying - 34 : ntp herbal medicine factsheet
+22:59:50.276 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 34: 'ntp herbal medicine factsheet'
+22:59:50.278 [main] INFO  o.t.matching.PostingListManager - Query 34 with 4 terms has 4 posting lists
+22:59:50.296 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 34
+22:59:50.301 [main] INFO  o.t.matching.PostingListManager - Query 34 with 13 terms has 13 posting lists
+22:59:50.316 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.04
+22:59:50.316 [main] INFO  o.t.a.batchquerying.TRECQuerying - 38 : ohio dams and locks
+22:59:50.317 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 38: 'ohio dams and locks'
+22:59:50.318 [main] INFO  o.t.matching.PostingListManager - Query 38 with 3 terms has 3 posting lists
+22:59:50.362 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 38
+22:59:50.367 [main] INFO  o.t.matching.PostingListManager - Query 38 with 11 terms has 11 posting lists
+22:59:50.408 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.092
+22:59:50.408 [main] INFO  o.t.a.batchquerying.TRECQuerying - 39 : child support enforcement cost benefit
+22:59:50.408 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 39: 'child support enforcement cost benefit'
+22:59:50.410 [main] INFO  o.t.matching.PostingListManager - Query 39 with 5 terms has 5 posting lists
+22:59:50.519 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 39
+22:59:50.524 [main] INFO  o.t.matching.PostingListManager - Query 39 with 12 terms has 12 posting lists
+22:59:50.586 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.178
+22:59:50.586 [main] INFO  o.t.a.batchquerying.TRECQuerying - 42 : sibir air anatomy of a disaster
+22:59:50.586 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 42: 'sibir air anatomy of a disaster'
+22:59:50.588 [main] INFO  o.t.matching.PostingListManager - Query 42 with 4 terms has 4 posting lists
+22:59:50.634 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 42
+22:59:50.639 [main] INFO  o.t.matching.PostingListManager - Query 42 with 13 terms has 13 posting lists
+22:59:50.703 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.117
+22:59:50.703 [main] INFO  o.t.a.batchquerying.TRECQuerying - 43 : vehicle registration california
+22:59:50.704 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 43: 'vehicle registration california'
+22:59:50.705 [main] INFO  o.t.matching.PostingListManager - Query 43 with 3 terms has 3 posting lists
+22:59:50.774 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 43
+22:59:50.778 [main] INFO  o.t.matching.PostingListManager - Query 43 with 12 terms has 12 posting lists
+22:59:50.809 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.106
+22:59:50.810 [main] INFO  o.t.a.batchquerying.TRECQuerying - 44 : dash combination diet
+22:59:50.810 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 44: 'dash combination diet'
+22:59:50.811 [main] INFO  o.t.matching.PostingListManager - Query 44 with 3 terms has 3 posting lists
+22:59:50.862 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 44
+22:59:50.867 [main] INFO  o.t.matching.PostingListManager - Query 44 with 12 terms has 12 posting lists
+22:59:50.942 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.132
+22:59:50.942 [main] INFO  o.t.a.batchquerying.TRECQuerying - 55 : budget process in the u s department of education
+22:59:50.942 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 55: 'budget process in the u s department of education'
+22:59:50.944 [main] INFO  o.t.matching.PostingListManager - Query 55 with 4 terms has 4 posting lists
+22:59:51.049 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 55
+22:59:51.053 [main] INFO  o.t.matching.PostingListManager - Query 55 with 13 terms has 13 posting lists
+22:59:51.147 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.205
+22:59:51.147 [main] INFO  o.t.a.batchquerying.TRECQuerying - 56 : kudzu invasive species
+22:59:51.148 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 56: 'kudzu invasive species'
+22:59:51.149 [main] INFO  o.t.matching.PostingListManager - Query 56 with 3 terms has 3 posting lists
+22:59:51.211 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 56
+22:59:51.215 [main] INFO  o.t.matching.PostingListManager - Query 56 with 11 terms has 11 posting lists
+22:59:51.250 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.103
+22:59:51.250 [main] INFO  o.t.a.batchquerying.TRECQuerying - 61 : cosmology peebles turner
+22:59:51.250 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 61: 'cosmology peebles turner'
+22:59:51.251 [main] INFO  o.t.matching.PostingListManager - Query 61 with 3 terms has 3 posting lists
+22:59:51.278 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 61
+22:59:51.282 [main] INFO  o.t.matching.PostingListManager - Query 61 with 12 terms has 12 posting lists
+22:59:51.318 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.068
+22:59:51.318 [main] INFO  o.t.a.batchquerying.TRECQuerying - 62 : firstgov for kids computers
+22:59:51.318 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 62: 'firstgov for kids computers'
+22:59:51.320 [main] INFO  o.t.matching.PostingListManager - Query 62 with 3 terms has 3 posting lists
+22:59:51.336 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 62
+22:59:51.340 [main] INFO  o.t.matching.PostingListManager - Query 62 with 12 terms has 12 posting lists
+22:59:51.425 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.107
+22:59:51.426 [main] INFO  o.t.a.batchquerying.TRECQuerying - 68 : women s health binge eating disorders
+22:59:51.426 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 68: 'women s health binge eating disorders'
+22:59:51.428 [main] INFO  o.t.matching.PostingListManager - Query 68 with 5 terms has 5 posting lists
+22:59:51.495 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 68
+22:59:51.499 [main] INFO  o.t.matching.PostingListManager - Query 68 with 11 terms has 11 posting lists
+22:59:51.536 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.11
+22:59:51.536 [main] INFO  o.t.a.batchquerying.TRECQuerying - 70 : social security office locator
+22:59:51.537 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 70: 'social security office locator'
+22:59:51.538 [main] INFO  o.t.matching.PostingListManager - Query 70 with 4 terms has 4 posting lists
+22:59:51.625 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 70
+22:59:51.630 [main] INFO  o.t.matching.PostingListManager - Query 70 with 12 terms has 12 posting lists
+22:59:51.744 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.208
+22:59:51.744 [main] INFO  o.t.a.batchquerying.TRECQuerying - 71 : duck identification guide
+22:59:51.744 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 71: 'duck identification guide'
+22:59:51.745 [main] INFO  o.t.matching.PostingListManager - Query 71 with 3 terms has 3 posting lists
+22:59:51.783 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 71
+22:59:51.787 [main] INFO  o.t.matching.PostingListManager - Query 71 with 12 terms has 12 posting lists
+22:59:51.850 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.106
+22:59:51.850 [main] INFO  o.t.a.batchquerying.TRECQuerying - 72 : edy s ice cream recall
+22:59:51.851 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 72: 'edy s ice cream recall'
+22:59:51.853 [main] INFO  o.t.matching.PostingListManager - Query 72 with 4 terms has 4 posting lists
+22:59:51.889 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 72
+22:59:51.894 [main] INFO  o.t.matching.PostingListManager - Query 72 with 13 terms has 13 posting lists
+22:59:51.966 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.116
+22:59:51.966 [main] INFO  o.t.a.batchquerying.TRECQuerying - 76 : streamline your fha mortgage
+22:59:51.966 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 76: 'streamline your fha mortgage'
+22:59:51.968 [main] INFO  o.t.matching.PostingListManager - Query 76 with 3 terms has 3 posting lists
+22:59:52.048 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 76
+22:59:52.053 [main] INFO  o.t.matching.PostingListManager - Query 76 with 12 terms has 12 posting lists
+22:59:52.078 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.112
+22:59:52.078 [main] INFO  o.t.a.batchquerying.TRECQuerying - 77 : hcfa manuals
+22:59:52.078 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 77: 'hcfa manuals'
+22:59:52.079 [main] INFO  o.t.matching.PostingListManager - Query 77 with 2 terms has 2 posting lists
+22:59:52.088 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 77
+22:59:52.092 [main] INFO  o.t.matching.PostingListManager - Query 77 with 11 terms has 11 posting lists
+22:59:52.142 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.064
+22:59:52.142 [main] INFO  o.t.a.batchquerying.TRECQuerying - 82 : 1000 most popular given names births 2000
+22:59:52.142 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 82: '1000 most popular given names births 2000'
+22:59:52.145 [main] INFO  o.t.matching.PostingListManager - Query 82 with 6 terms has 6 posting lists
+22:59:52.189 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 82
+22:59:52.195 [main] INFO  o.t.matching.PostingListManager - Query 82 with 15 terms has 15 posting lists
+22:59:52.269 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.126
+22:59:52.269 [main] INFO  o.t.a.batchquerying.TRECQuerying - 88 : frank lloyd wright
+22:59:52.269 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 88: 'frank lloyd wright'
+22:59:52.270 [main] INFO  o.t.matching.PostingListManager - Query 88 with 3 terms has 3 posting lists
+22:59:52.318 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 88
+22:59:52.323 [main] INFO  o.t.matching.PostingListManager - Query 88 with 12 terms has 12 posting lists
+22:59:52.336 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.067
+22:59:52.337 [main] INFO  o.t.a.batchquerying.TRECQuerying - 90 : healthy homes and lead hazard control
+22:59:52.337 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 90: 'healthy homes and lead hazard control'
+22:59:52.339 [main] INFO  o.t.matching.PostingListManager - Query 90 with 5 terms has 5 posting lists
+22:59:52.433 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 90
+22:59:52.438 [main] INFO  o.t.matching.PostingListManager - Query 90 with 13 terms has 13 posting lists
+22:59:52.509 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.172
+22:59:52.509 [main] INFO  o.t.a.batchquerying.TRECQuerying - 91 : opm dual employment
+22:59:52.510 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 91: 'opm dual employment'
+22:59:52.511 [main] INFO  o.t.matching.PostingListManager - Query 91 with 3 terms has 3 posting lists
+22:59:52.553 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 91
+22:59:52.557 [main] INFO  o.t.matching.PostingListManager - Query 91 with 11 terms has 11 posting lists
+22:59:52.607 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.098
+22:59:52.607 [main] INFO  o.t.a.batchquerying.TRECQuerying - 100 : stable isotopes and bird migration
+22:59:52.607 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 100: 'stable isotopes and bird migration'
+22:59:52.609 [main] INFO  o.t.matching.PostingListManager - Query 100 with 4 terms has 4 posting lists
+22:59:52.638 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 100
+22:59:52.643 [main] INFO  o.t.matching.PostingListManager - Query 100 with 13 terms has 13 posting lists
+22:59:52.686 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.079
+22:59:52.686 [main] INFO  o.t.a.batchquerying.TRECQuerying - 105 : presidential rank merit awards for federal employees
+22:59:52.686 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 105: 'presidential rank merit awards for federal employees'
+22:59:52.688 [main] INFO  o.t.matching.PostingListManager - Query 105 with 6 terms has 6 posting lists
+22:59:52.759 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 105
+22:59:52.764 [main] INFO  o.t.matching.PostingListManager - Query 105 with 13 terms has 13 posting lists
+22:59:52.831 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.145
+22:59:52.831 [main] INFO  o.t.a.batchquerying.TRECQuerying - 114 : laguna canyon landslide
+22:59:52.832 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 114: 'laguna canyon landslide'
+22:59:52.833 [main] INFO  o.t.matching.PostingListManager - Query 114 with 3 terms has 3 posting lists
+22:59:52.867 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 114
+22:59:52.871 [main] INFO  o.t.matching.PostingListManager - Query 114 with 12 terms has 12 posting lists
+22:59:52.910 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.079
+22:59:52.911 [main] INFO  o.t.a.batchquerying.TRECQuerying - 116 : fafsa
+22:59:52.911 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 116: 'fafsa'
+22:59:52.911 [main] INFO  o.t.matching.PostingListManager - Query 116 with 1 terms has 1 posting lists
+22:59:52.945 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 116
+22:59:52.949 [main] INFO  o.t.matching.PostingListManager - Query 116 with 10 terms has 10 posting lists
+22:59:53.003 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.092
+22:59:53.003 [main] INFO  o.t.a.batchquerying.TRECQuerying - 119 : groundhog day punxsutawney
+22:59:53.003 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 119: 'groundhog day punxsutawney'
+22:59:53.004 [main] INFO  o.t.matching.PostingListManager - Query 119 with 3 terms has 3 posting lists
+22:59:53.019 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 119
+22:59:53.023 [main] INFO  o.t.matching.PostingListManager - Query 119 with 12 terms has 12 posting lists
+22:59:53.067 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.064
+22:59:53.067 [main] INFO  o.t.a.batchquerying.TRECQuerying - 120 : st paul sidewalk snow shoveling ordnance
+22:59:53.067 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 120: 'st paul sidewalk snow shoveling ordnance'
+22:59:53.069 [main] INFO  o.t.matching.PostingListManager - Query 120 with 6 terms has 6 posting lists
+22:59:53.118 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 120
+22:59:53.124 [main] INFO  o.t.matching.PostingListManager - Query 120 with 15 terms has 15 posting lists
+22:59:53.166 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.099
+22:59:53.166 [main] INFO  o.t.a.batchquerying.TRECQuerying - 124 : detailed information on humpback whale
+22:59:53.166 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 124: 'detailed information on humpback whale'
+22:59:53.168 [main] INFO  o.t.matching.PostingListManager - Query 124 with 3 terms has 3 posting lists
+22:59:53.243 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 124
+22:59:53.247 [main] INFO  o.t.matching.PostingListManager - Query 124 with 11 terms has 11 posting lists
+22:59:53.264 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.098
+22:59:53.264 [main] INFO  o.t.a.batchquerying.TRECQuerying - 126 : trademark faq
+22:59:53.265 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 126: 'trademark faq'
+22:59:53.266 [main] INFO  o.t.matching.PostingListManager - Query 126 with 2 terms has 2 posting lists
+22:59:53.309 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 126
+22:59:53.313 [main] INFO  o.t.matching.PostingListManager - Query 126 with 10 terms has 10 posting lists
+22:59:53.356 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.092
+22:59:53.356 [main] INFO  o.t.a.batchquerying.TRECQuerying - 130 : bay area terrorism hazards
+22:59:53.356 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 130: 'bay area terrorism hazards'
+22:59:53.358 [main] INFO  o.t.matching.PostingListManager - Query 130 with 4 terms has 4 posting lists
+22:59:53.420 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 130
+22:59:53.424 [main] INFO  o.t.matching.PostingListManager - Query 130 with 13 terms has 13 posting lists
+22:59:53.512 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.156
+22:59:53.513 [main] INFO  o.t.a.batchquerying.TRECQuerying - 131 : persian gulf war veterans and lou gehrig s disease
+22:59:53.513 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 131: 'persian gulf war veterans and lou gehrig s disease'
+22:59:53.516 [main] INFO  o.t.matching.PostingListManager - Query 131 with 7 terms has 7 posting lists
+22:59:53.570 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 131
+22:59:53.575 [main] INFO  o.t.matching.PostingListManager - Query 131 with 13 terms has 13 posting lists
+22:59:53.596 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.083
+22:59:53.596 [main] INFO  o.t.a.batchquerying.TRECQuerying - 132 : food illness reporting
+22:59:53.596 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 132: 'food illness reporting'
+22:59:53.598 [main] INFO  o.t.matching.PostingListManager - Query 132 with 3 terms has 3 posting lists
+22:59:53.664 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 132
+22:59:53.668 [main] INFO  o.t.matching.PostingListManager - Query 132 with 11 terms has 11 posting lists
+22:59:53.734 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.138
+22:59:53.734 [main] INFO  o.t.a.batchquerying.TRECQuerying - 138 : risks of tattoos and permanent makeup
+22:59:53.734 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 138: 'risks of tattoos and permanent makeup'
+22:59:53.736 [main] INFO  o.t.matching.PostingListManager - Query 138 with 4 terms has 4 posting lists
+22:59:53.781 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 138
+22:59:53.785 [main] INFO  o.t.matching.PostingListManager - Query 138 with 13 terms has 13 posting lists
+22:59:53.870 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.136
+22:59:53.870 [main] INFO  o.t.a.batchquerying.TRECQuerying - 147 : hearing and balance how loud is too loud
+22:59:53.870 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 147: 'hearing and balance how loud is too loud'
+22:59:53.872 [main] INFO  o.t.matching.PostingListManager - Query 147 with 3 terms has 3 posting lists
+22:59:53.900 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 147
+22:59:53.905 [main] INFO  o.t.matching.PostingListManager - Query 147 with 12 terms has 12 posting lists
+22:59:54.007 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.137
+22:59:54.007 [main] INFO  o.t.a.batchquerying.TRECQuerying - 150 : snake bite first aid
+22:59:54.008 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 150: 'snake bite first aid'
+22:59:54.009 [main] INFO  o.t.matching.PostingListManager - Query 150 with 3 terms has 3 posting lists
+22:59:54.066 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 150
+22:59:54.070 [main] INFO  o.t.matching.PostingListManager - Query 150 with 12 terms has 12 posting lists
+22:59:54.107 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.1
+22:59:54.108 [main] INFO  o.t.a.batchquerying.TRECQuerying - 151 : institutions and universities in fuel cell research
+22:59:54.108 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 151: 'institutions and universities in fuel cell research'
+22:59:54.110 [main] INFO  o.t.matching.PostingListManager - Query 151 with 5 terms has 5 posting lists
+22:59:54.179 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 151
+22:59:54.184 [main] INFO  o.t.matching.PostingListManager - Query 151 with 14 terms has 14 posting lists
+22:59:54.246 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.138
+22:59:54.246 [main] INFO  o.t.a.batchquerying.TRECQuerying - 154 : kids now by state
+22:59:54.246 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 154: 'kids now by state'
+22:59:54.247 [main] INFO  o.t.matching.PostingListManager - Query 154 with 3 terms has 3 posting lists
+22:59:54.325 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 154
+22:59:54.329 [main] INFO  o.t.matching.PostingListManager - Query 154 with 12 terms has 12 posting lists
+22:59:54.409 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.163
+22:59:54.409 [main] INFO  o.t.a.batchquerying.TRECQuerying - 159 : tax cut deja voo doo
+22:59:54.409 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 159: 'tax cut deja voo doo'
+22:59:54.411 [main] INFO  o.t.matching.PostingListManager - Query 159 with 5 terms has 5 posting lists
+22:59:54.453 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 159
+22:59:54.458 [main] INFO  o.t.matching.PostingListManager - Query 159 with 13 terms has 13 posting lists
+22:59:54.489 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.08
+22:59:54.489 [main] INFO  o.t.a.batchquerying.TRECQuerying - 166 : art in white house
+22:59:54.489 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 166: 'art in white house'
+22:59:54.491 [main] INFO  o.t.matching.PostingListManager - Query 166 with 3 terms has 3 posting lists
+22:59:54.545 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 166
+22:59:54.549 [main] INFO  o.t.matching.PostingListManager - Query 166 with 12 terms has 12 posting lists
+22:59:54.589 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.1
+22:59:54.589 [main] INFO  o.t.a.batchquerying.TRECQuerying - 172 : fcc freedom of information act
+22:59:54.589 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 172: 'fcc freedom of information act'
+22:59:54.590 [main] INFO  o.t.matching.PostingListManager - Query 172 with 3 terms has 3 posting lists
+22:59:54.615 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 172
+22:59:54.619 [main] INFO  o.t.matching.PostingListManager - Query 172 with 12 terms has 12 posting lists
+22:59:54.659 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.07
+22:59:54.659 [main] INFO  o.t.a.batchquerying.TRECQuerying - 173 : internet business cards
+22:59:54.659 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 173: 'internet business cards'
+22:59:54.661 [main] INFO  o.t.matching.PostingListManager - Query 173 with 3 terms has 3 posting lists
+22:59:54.739 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 173
+22:59:54.744 [main] INFO  o.t.matching.PostingListManager - Query 173 with 12 terms has 12 posting lists
+22:59:54.795 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.136
+22:59:54.795 [main] INFO  o.t.a.batchquerying.TRECQuerying - 174 : keeping cholesterol under control
+22:59:54.795 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 174: 'keeping cholesterol under control'
+22:59:54.797 [main] INFO  o.t.matching.PostingListManager - Query 174 with 3 terms has 3 posting lists
+22:59:54.845 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 174
+22:59:54.850 [main] INFO  o.t.matching.PostingListManager - Query 174 with 12 terms has 12 posting lists
+22:59:54.878 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.083
+22:59:54.878 [main] INFO  o.t.a.batchquerying.TRECQuerying - 175 : social security benefits application
+22:59:54.878 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 175: 'social security benefits application'
+22:59:54.880 [main] INFO  o.t.matching.PostingListManager - Query 175 with 4 terms has 4 posting lists
+22:59:54.937 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 175
+22:59:54.941 [main] INFO  o.t.matching.PostingListManager - Query 175 with 10 terms has 10 posting lists
+22:59:55.009 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.131
+22:59:55.009 [main] INFO  o.t.a.batchquerying.TRECQuerying - 179 : gpo subscriptions catalog
+22:59:55.009 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 179: 'gpo subscriptions catalog'
+22:59:55.010 [main] INFO  o.t.matching.PostingListManager - Query 179 with 3 terms has 3 posting lists
+22:59:55.057 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 179
+22:59:55.061 [main] INFO  o.t.matching.PostingListManager - Query 179 with 11 terms has 11 posting lists
+22:59:55.081 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.072
+22:59:55.081 [main] INFO  o.t.a.batchquerying.TRECQuerying - 180 : greenwich mean time
+22:59:55.082 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 180: 'greenwich mean time'
+22:59:55.083 [main] INFO  o.t.matching.PostingListManager - Query 180 with 3 terms has 3 posting lists
+22:59:55.132 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 180
+22:59:55.136 [main] INFO  o.t.matching.PostingListManager - Query 180 with 11 terms has 11 posting lists
+22:59:55.241 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.16
+22:59:55.241 [main] INFO  o.t.a.batchquerying.TRECQuerying - 181 : ahrq clinical practice guidelines
+22:59:55.241 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 181: 'ahrq clinical practice guidelines'
+22:59:55.242 [main] INFO  o.t.matching.PostingListManager - Query 181 with 4 terms has 4 posting lists
+22:59:55.302 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 181
+22:59:55.306 [main] INFO  o.t.matching.PostingListManager - Query 181 with 11 terms has 11 posting lists
+22:59:55.366 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.125
+22:59:55.367 [main] INFO  o.t.a.batchquerying.TRECQuerying - 182 : federal consumer information center scams
+22:59:55.367 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 182: 'federal consumer information center scams'
+22:59:55.368 [main] INFO  o.t.matching.PostingListManager - Query 182 with 4 terms has 4 posting lists
+22:59:55.439 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 182
+22:59:55.443 [main] INFO  o.t.matching.PostingListManager - Query 182 with 13 terms has 13 posting lists
+22:59:55.527 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.16
+22:59:55.527 [main] INFO  o.t.a.batchquerying.TRECQuerying - 186 : piglet anti inflammatory
+22:59:55.527 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 186: 'piglet anti inflammatory'
+22:59:55.529 [main] INFO  o.t.matching.PostingListManager - Query 186 with 3 terms has 3 posting lists
+22:59:55.564 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 186
+22:59:55.569 [main] INFO  o.t.matching.PostingListManager - Query 186 with 12 terms has 12 posting lists
+22:59:55.582 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.055
+22:59:55.582 [main] INFO  o.t.a.batchquerying.TRECQuerying - 187 : backyard bird habitat
+22:59:55.582 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 187: 'backyard bird habitat'
+22:59:55.584 [main] INFO  o.t.matching.PostingListManager - Query 187 with 3 terms has 3 posting lists
+22:59:55.606 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 187
+22:59:55.610 [main] INFO  o.t.matching.PostingListManager - Query 187 with 11 terms has 11 posting lists
+22:59:55.657 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.075
+22:59:55.657 [main] INFO  o.t.a.batchquerying.TRECQuerying - 188 : why study comets
+22:59:55.657 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 188: 'why study comets'
+22:59:55.658 [main] INFO  o.t.matching.PostingListManager - Query 188 with 2 terms has 2 posting lists
+22:59:55.684 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 188
+22:59:55.689 [main] INFO  o.t.matching.PostingListManager - Query 188 with 11 terms has 11 posting lists
+22:59:55.713 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.056
+22:59:55.713 [main] INFO  o.t.a.batchquerying.TRECQuerying - 190 : children s butterfly site life cycle page
+22:59:55.714 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 190: 'children s butterfly site life cycle page'
+22:59:55.716 [main] INFO  o.t.matching.PostingListManager - Query 190 with 6 terms has 6 posting lists
+22:59:55.798 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 190
+22:59:55.803 [main] INFO  o.t.matching.PostingListManager - Query 190 with 14 terms has 14 posting lists
+22:59:55.912 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.199
+22:59:55.912 [main] INFO  o.t.a.batchquerying.TRECQuerying - 198 : acupuncture effectiveness
+22:59:55.912 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 198: 'acupuncture effectiveness'
+22:59:55.913 [main] INFO  o.t.matching.PostingListManager - Query 198 with 2 terms has 2 posting lists
+22:59:55.977 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 198
+22:59:55.981 [main] INFO  o.t.matching.PostingListManager - Query 198 with 11 terms has 11 posting lists
+22:59:56.007 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.095
+22:59:56.007 [main] INFO  o.t.a.batchquerying.TRECQuerying - 201 : social security inspector general
+22:59:56.007 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 201: 'social security inspector general'
+22:59:56.009 [main] INFO  o.t.matching.PostingListManager - Query 201 with 4 terms has 4 posting lists
+22:59:56.082 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 201
+22:59:56.086 [main] INFO  o.t.matching.PostingListManager - Query 201 with 12 terms has 12 posting lists
+22:59:56.202 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.195
+22:59:56.202 [main] INFO  o.t.a.batchquerying.TRECQuerying - 205 : state department bureau intelligence research
+22:59:56.202 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 205: 'state department bureau intelligence research'
+22:59:56.204 [main] INFO  o.t.matching.PostingListManager - Query 205 with 5 terms has 5 posting lists
+22:59:56.315 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 205
+22:59:56.320 [main] INFO  o.t.matching.PostingListManager - Query 205 with 14 terms has 14 posting lists
+22:59:56.405 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.203
+22:59:56.405 [main] INFO  o.t.a.batchquerying.TRECQuerying - 206 : bird monitoring in north america
+22:59:56.405 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 206: 'bird monitoring in north america'
+22:59:56.407 [main] INFO  o.t.matching.PostingListManager - Query 206 with 4 terms has 4 posting lists
+22:59:56.445 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 206
+22:59:56.448 [main] INFO  o.t.matching.PostingListManager - Query 206 with 11 terms has 11 posting lists
+22:59:56.491 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.086
+22:59:56.491 [main] INFO  o.t.a.batchquerying.TRECQuerying - 208 : the bill of rights amendments i x
+22:59:56.491 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 208: 'the bill of rights amendments i x'
+22:59:56.492 [main] INFO  o.t.matching.PostingListManager - Query 208 with 3 terms has 3 posting lists
+22:59:56.537 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 208
+22:59:56.541 [main] INFO  o.t.matching.PostingListManager - Query 208 with 11 terms has 11 posting lists
+22:59:56.599 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.108
+22:59:56.599 [main] INFO  o.t.a.batchquerying.TRECQuerying - 216 : windandsea
+22:59:56.599 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 216: 'windandsea'
+22:59:56.600 [main] INFO  o.t.matching.PostingListManager - Query 216 with 1 terms has 1 posting lists
+22:59:56.620 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 216
+22:59:56.624 [main] INFO  o.t.matching.PostingListManager - Query 216 with 11 terms has 11 posting lists
+22:59:56.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.044
+22:59:56.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - 219 : west indian manatee information
+22:59:56.643 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 219: 'west indian manatee information'
+22:59:56.645 [main] INFO  o.t.matching.PostingListManager - Query 219 with 3 terms has 3 posting lists
+22:59:56.691 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 219
+22:59:56.695 [main] INFO  o.t.matching.PostingListManager - Query 219 with 12 terms has 12 posting lists
+22:59:56.726 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.083
+22:59:56.726 [main] INFO  o.t.a.batchquerying.TRECQuerying - 220 : wildfires usgs wildland fire research
+22:59:56.726 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 220: 'wildfires usgs wildland fire research'
+22:59:56.728 [main] INFO  o.t.matching.PostingListManager - Query 220 with 5 terms has 5 posting lists
+22:59:56.776 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 220
+22:59:56.781 [main] INFO  o.t.matching.PostingListManager - Query 220 with 13 terms has 13 posting lists
+22:59:56.882 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.156
+22:59:56.883 [main] INFO  o.t.a.batchquerying.TRECQuerying - 222 : home equity credit lines
+22:59:56.883 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 222: 'home equity credit lines'
+22:59:56.884 [main] INFO  o.t.matching.PostingListManager - Query 222 with 4 terms has 4 posting lists
+22:59:56.964 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 222
+22:59:56.968 [main] INFO  o.t.matching.PostingListManager - Query 222 with 13 terms has 13 posting lists
+22:59:57.024 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.141
+22:59:57.024 [main] INFO  o.t.a.batchquerying.TRECQuerying - 225 : japanese surrender document
+22:59:57.024 [main] INFO  o.t.a.batchquerying.TRECQuerying - Processing query: 225: 'japanese surrender document'
+22:59:57.025 [main] INFO  o.t.matching.PostingListManager - Query 225 with 3 terms has 3 posting lists
+22:59:57.076 [main] INFO  org.terrier.querying.QueryExpansion - Accessing inverted file for expanded query 225
+22:59:57.080 [main] INFO  o.t.matching.PostingListManager - Query 225 with 11 terms has 11 posting lists
+22:59:57.126 [main] INFO  o.t.a.batchquerying.TRECQuerying - Time to process query: 0.102
+22:59:57.140 [main] INFO  o.t.a.batchquerying.TRECQuerying - Settings of Terrier written to /Users/fferegrino/Documents/terrier-core-4.2/var/results/NP04-Log10TfIdfModel-q.res.settings
+22:59:57.140 [main] INFO  o.t.a.batchquerying.TRECQuerying - Finished topics, executed 75 queries in 8.795 seconds, results written to /Users/fferegrino/Documents/terrier-core-4.2/var/results/NP04-Log10TfIdfModel-q.res
+Time elapsed: 9.478 seconds.

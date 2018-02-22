@@ -1,0 +1,9 @@
+COMMAND: /Users/fferegrino/Documents/terrier-core-4.2/bin/trec_terrier.sh --printstats 
+Setting TERRIER_HOME to /Users/fferegrino/Documents/terrier-core-4.2
+Setting JAVA_HOME to /usr
+15:14:28.564 [main] INFO  org.terrier.applications.TrecTerrier - Collection statistics:
+15:14:28.566 [main] INFO  org.terrier.applications.TrecTerrier - number of indexed documents: 807775
+15:14:28.566 [main] INFO  org.terrier.applications.TrecTerrier - size of vocabulary: 2043788
+15:14:28.566 [main] INFO  org.terrier.applications.TrecTerrier - number of tokens: 572916194
+15:14:28.567 [main] INFO  org.terrier.applications.TrecTerrier - number of pointers: 177737957
+Time elapsed: 0.02 seconds.

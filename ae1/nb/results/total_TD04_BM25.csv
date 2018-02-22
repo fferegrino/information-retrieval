@@ -1,0 +1,2 @@
+query,P_10,P_100,P_1000,P_15,P_20,P_200,P_30,P_5,P_500,Rprec,bpref,gm_map,iprec_at_recall_0.00,iprec_at_recall_0.10,iprec_at_recall_0.20,iprec_at_recall_0.30,iprec_at_recall_0.40,iprec_at_recall_0.50,iprec_at_recall_0.60,iprec_at_recall_0.70,iprec_at_recall_0.80,iprec_at_recall_0.90,iprec_at_recall_1.00,map,num_q,num_rel,num_rel_ret,num_ret,recip_rank,runid
+all,0.0880,0.0443,0.0114,0.0889,0.0880,0.0303,0.0742,0.1067,0.0180,0.0787,0.0562,0.0335,0.2746,0.1765,0.1284,0.1035,0.0873,0.0583,0.0421,0.0251,0.0123,0.0067,0.0056,0.0703,75,1600,857,74137,0.2408,BM25b0.75
