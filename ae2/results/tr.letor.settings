@@ -1,5 +1,5 @@
 # Settings of Terrier (TRECQuerying) generated for run C:\Users\anton\Documents\GitHub\information-retrieval\ae2\results\tr.letor
-#Fri Feb 23 18:43:29 GMT 2018
+#Fri Feb 23 20:33:57 GMT 2018
 proximity.w_o=1.0d
 terrier.etc=C\:\\Users\\anton\\Terrier\\etc
 blocks.max=100000
@@ -88,7 +88,7 @@ trec.encoding=windows-1252
 termpipelines=Stopwords,PorterStemmer
 # topicfile: C:\terrier_data\topics\training\topics
 # control: labels=on
-# run started at: 1519411382897
-# run finished at 1519411409272
+# run started at: 1519418007916
+# run finished at 1519418037540
 # c=0.0 c_set=false
 # model=PL2

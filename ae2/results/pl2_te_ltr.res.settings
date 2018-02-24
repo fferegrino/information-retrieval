@@ -1,5 +1,5 @@
 # Settings of Terrier (TRECQuerying) generated for run C:\Users\anton\Documents\GitHub\information-retrieval\ae2\results\pl2_te_ltr.res
-#Fri Feb 23 19:30:20 GMT 2018
+#Fri Feb 23 20:35:23 GMT 2018
 proximity.w_o=1.0d
 fat.matching.learned.jforest.model=C\:\\Users\\anton\\Documents\\GitHub\\information-retrieval\\ae2\\results\\ensemble.txt
 terrier.etc=C\:\\Users\\anton\\Terrier\\etc
@@ -84,7 +84,7 @@ trecquery.ignore.desc.narr.name.tokens=true
 trec.encoding=windows-1252
 termpipelines=Stopwords,PorterStemmer
 # topicfile: C:\terrier_data\topics\HP04\topics
-# run started at: 1519414202645
-# run finished at 1519414220993
+# run started at: 1519418102520
+# run finished at 1519418123183
 # c=0.0 c_set=false
 # model=PL2
