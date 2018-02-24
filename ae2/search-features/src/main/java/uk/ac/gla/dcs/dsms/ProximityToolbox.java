@@ -17,4 +17,16 @@ public class ProximityToolbox {
 	public static double distance(int a, int b) {
 		return (double)Math.abs(a-b);
 	}
+	
+	public static double distance(double a, double b) {
+		return Math.abs(a-b);
+	}
+	
+	public static double average(int[] ints) {
+		double d = 0;
+		for(int i : ints) {
+			d += i;
+		}
+		return d/ints.length;
+	}
 }

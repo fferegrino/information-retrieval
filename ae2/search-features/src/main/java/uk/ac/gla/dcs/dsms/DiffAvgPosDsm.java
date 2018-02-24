@@ -4,11 +4,11 @@ import org.terrier.matching.dsms.DependenceScoreModifier;
 import org.terrier.structures.postings.BlockPosting;
 import org.terrier.structures.postings.IterablePosting;
 
-public class MinDistDsm extends DependenceScoreModifier  {
+public class DiffAvgPosDsm extends DependenceScoreModifier {
 	
 	@Override
 	public String getName() {
-		return "min_dist";
+		return "diff_avg_pos";
 	}
 	
 	/** This class is passed the postings of the current document,
@@ -25,16 +25,10 @@ public class MinDistDsm extends DependenceScoreModifier  {
 		int[] aPositions = postings[0].getPositions();
 		int[] bPositions = postings[1].getPositions();
 		
-		double distance = Double.MAX_VALUE;
+		double meanA = ProximityToolbox.average(aPositions);
+		double meanB = ProximityToolbox.average(bPositions);
 		
-		for(int a:aPositions) {
-			for(int b:bPositions) {
-				double d = ProximityToolbox.distance(a, b);
-				if(d < distance) {
-					distance = d;
-				}
-			}
-		}
+		double distance = ProximityToolbox.distance(meanA, meanB);
 		
 		return distance;
 	}
@@ -44,4 +38,5 @@ public class MinDistDsm extends DependenceScoreModifier  {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
 }

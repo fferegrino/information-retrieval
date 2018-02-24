@@ -1,0 +1,5 @@
+WMODEL:SingleFieldModel(BM25,0) 
+QI:StaticFeature(OIS,C:\terrier_data\features\pagerank.oos.gz) 
+DSM:org.terrier.matching.dsms.DFRDependenceScoreModifier 
+DSM:uk.ac.gla.dcs.dsms.AvgMinDistDsm  
+DSM:uk.ac.gla.dcs.dsms.MinDistDsm 
