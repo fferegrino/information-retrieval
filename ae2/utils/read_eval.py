@@ -8,7 +8,7 @@ def read_eval(eval_file, skip_first=True):
     data = pd.read_table(eval_file,
                          sep='\t',
                          header=None,
-                         skiprows=[0] if skip_first else None,
+                         skiprows=[0,1] if skip_first else [0],
                          names=['measure', 'query', 'value'])
     # Split frames:
     data.dropna(inplace=True)

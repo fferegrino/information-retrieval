@@ -1,4 +1,5 @@
-Set TERRIER_HOME to be C:\Users\anton\Terrier
+Setting TERRIER_HOME to /Users/fferegrino/Documents/terrier-core-4.2
+Setting JAVA_HOME to /usr
 num_ret               	106	1000
 num_rel               	106	1
 num_rel_ret           	106	1
