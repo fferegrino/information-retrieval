@@ -1,5 +1,0 @@
-FeatureIndex	Name	Min	Max
-1	null	0.0	1.0
-2	null	0.0	1.0
-3	null	0.0	1.0
-4	null	0.0	1.0
