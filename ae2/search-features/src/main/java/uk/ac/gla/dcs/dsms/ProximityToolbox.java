@@ -14,6 +14,10 @@ public class ProximityToolbox {
 		return blocks;
 	}
 
+	public static BlockPosting getBlocks(IterablePosting postings) {
+		return (BlockPosting) postings;
+	}
+
 	public static double distance(int a, int b) {
 		return (double) Math.abs(a - b);
 	}

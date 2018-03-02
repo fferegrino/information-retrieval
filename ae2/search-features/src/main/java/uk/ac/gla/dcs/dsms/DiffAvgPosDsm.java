@@ -1,5 +1,6 @@
 package uk.ac.gla.dcs.dsms;
 
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -10,6 +11,7 @@ import org.terrier.structures.postings.IterablePosting;
 public class DiffAvgPosDsm extends DependenceScoreModifier {
 
 	private final static Logger Log = Logger.getLogger(DiffAvgPosDsm.class.getName());
+	private final static Double Large = Double.MAX_VALUE / 20;
 
 	@Override
 	public String getName() {
@@ -26,19 +28,32 @@ public class DiffAvgPosDsm extends DependenceScoreModifier {
 			double[] phraseTermWeights, boolean SD // not needed
 	) {
 
-		if (okToUse[0] && okToUse[1]) {
-			BlockPosting[] postings = ProximityToolbox.getBlocks(ips);
-			int[] aPositions = postings[0].getPositions();
-			int[] bPositions = postings[1].getPositions();
-
-			double meanA = ProximityToolbox.average(aPositions);
-			double meanB = ProximityToolbox.average(bPositions);
-
-			double distance = ProximityToolbox.distance(meanA, meanB);
-
-			return distance;
+		final int numberOfTerms = okToUse.length;
+		double score = 0;
+		int scores = 0;
+		for (int i = 0; i < numberOfTerms; i++) {
+			for (int j = 0; j < numberOfTerms; j++) {
+				if (i == j)
+					continue;
+				scores++;
+				if (!okToUse[j] || !okToUse[i])
+					score += Large;
+				else
+					score += calculateDependence(ips[i], ips[j]);
+			}
 		}
-		return Double.MAX_VALUE;
+		return score / scores;
+	}
+
+	private double calculateDependence(IterablePosting a, IterablePosting b) {
+		BlockPosting aa = ProximityToolbox.getBlocks(a);
+		BlockPosting bb = ProximityToolbox.getBlocks(b);
+		int[] aPositions = aa.getPositions();
+		int[] bPositions = bb.getPositions();
+		double meanA = ProximityToolbox.average(aPositions);
+		double meanB = ProximityToolbox.average(bPositions);
+		double distance = ProximityToolbox.distance(meanA, meanB);
+		return distance;
 	}
 
 	@Override
