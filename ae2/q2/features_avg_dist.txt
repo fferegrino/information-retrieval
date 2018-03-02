@@ -1,0 +1,4 @@
+WMODEL:SingleFieldModel(BM25,0)
+QI:StaticFeature(OIS,/Users/fferegrino/Documents/ae1/features/pagerank.oos.gz)
+DSM:org.terrier.matching.dsms.DFRDependenceScoreModifier
+DSM:uk.ac.gla.dcs.dsms.AvgDistDsm
